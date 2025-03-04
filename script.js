@@ -1,98 +1,97 @@
-// Datos para los consejos (con placeholders para imágenes)
 const consejos = [
     {
         titulo: "1. Plantación adecuada",
         descripcion: "Una correcta plantación es crucial para el desarrollo saludable del árbol.",
-        imagen: "Imágenes/consejo1.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo1.jpg",
         detalles: [
             "Elegir una ubicación con suficiente espacio y luz solar.",
             "Plantar en un suelo bien drenado y enriquecido con materia orgánica.",
             "Realizar un hoyo de al menos 1 metro de diámetro y 80 cm de profundidad, rellenándolo con tierra y humus de lombriz.",
             "Evitar heladas, asegurándose de que la plantación se realice en épocas adecuadas."
         ],
-        imagenModal: "Imágenes/consejo1.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo1.jpg"
     },
     {
         titulo: "2. Riego eficiente",
         descripcion: "El riego debe adaptarse a la especie y condiciones climáticas.",
-        imagen: "Imágenes/consejo2.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo2.jpg",
         detalles: [
             "Proporcionar riego constante en el primer año.",
             "Ajustar la frecuencia según la especie y la estación.",
             "Evitar el encharcamiento, especialmente en especies sensibles como los cerezos y ciruelos.",
             "Usar riego por goteo o microaspersores para una distribución eficiente del agua."
         ],
-        imagenModal: "Imágenes/consejo2.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo2.jpg"
     },
     {
         titulo: "3. Poda regular",
         descripcion: "La poda permite un crecimiento saludable y mejora la producción de frutos.",
-        imagen: "Imágenes/consejo3.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo3.jpg",
         detalles: [
             "Podar anualmente para eliminar ramas secas, enfermas o mal ubicadas.",
             "Realizar la poda en noviembre, durante el reposo vegetativo.",
             "Favorecer la entrada de luz y aire al interior del árbol.",
             "En frutales jóvenes, equilibrar el crecimiento entre la copa y las raíces mediante podas ligeras."
         ],
-        imagenModal: "Imágenes/consejo3.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo3.jpg"
     },
     {
         titulo: "4. Fertilización adecuada",
         descripcion: "Los frutales consumen grandes cantidades de nutrientes, por lo que se recomienda una fertilización adecuada.",
-        imagen: "Imágenes/consejo4.png", // Ruta de la imagen
+        imagen: "Imágenes/consejo4.png",
         detalles: [
             "Aplicar abono orgánico en invierno, como compost, humus de lombriz o estiércol.",
             "Utilizar fertilizantes específicos en primavera y durante la formación del fruto.",
             "Evitar el exceso de fertilizantes químicos que puedan afectar el equilibrio del suelo."
         ],
-        imagenModal: "Imágenes/consejo4.png" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo4.png"
     },
     {
         titulo: "5. Protección contra plagas y enfermedades",
         descripcion: "Las plagas y enfermedades pueden afectar la salud del frutal y su producción.",
-        imagen: "Imágenes/consejo5.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo5.jpg",
         detalles: [
             "Inspeccionar regularmente los árboles en busca de signos de infestación.",
             "Aplicar tratamientos preventivos con productos naturales o químicos según sea necesario.",
             "Utilizar trampas y depredadores naturales para el control de plagas.",
             "Mantener la zona libre de malezas y restos vegetales que puedan albergar patógenos."
         ],
-        imagenModal: "Imágenes/consejo5.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo5.jpg"
     },
     {
         titulo: "6. Injertos en frutales",
         descripcion: "El injerto es una técnica utilizada para mejorar las características del árbol.",
-        imagen: "Imágenes/consejo6.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo6.jpg",
         detalles: [
             "Permite combinar variedades resistentes y productivas.",
             "Favorece la adaptación a condiciones específicas del suelo y clima.",
             "Mejora la calidad y cantidad de frutos."
         ],
-        imagenModal: "Imágenes/consejo6.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo6.jpg"
     },
     {
         titulo: "7. Protección contra heladas",
         descripcion: "Las heladas pueden afectar gravemente la floración y producción de los frutales.",
-        imagen: "Imágenes/consejo7.jpeg", // Ruta de la imagen
+        imagen: "Imágenes/consejo7.jpeg",
         detalles: [
             "Monitorear las previsiones meteorológicas.",
             "Utilizar cobertores plásticos o lonas durante las noches más frías.",
             "Implementar calentadores en huertos de gran escala.",
             "Evitar la poda tardía para no estimular brotes sensibles a bajas temperaturas."
         ],
-        imagenModal: "Imágenes/consejo7.jpeg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo7.jpeg"
     },
     {
         titulo: "8. Mantenimiento invernal",
         descripcion: "El invierno es una época ideal para realizar tareas de mantenimiento.",
-        imagen: "Imágenes/consejo8.jpg", // Ruta de la imagen
+        imagen: "Imágenes/consejo8.jpg",
         detalles: [
             "Plantar nuevos árboles.",
             "Eliminar malas hierbas alrededor del tronco.",
             "Abonar con materia orgánica para fortalecer el árbol.",
             "Enderezar los troncos de frutales jóvenes para evitar deformaciones."
         ],
-        imagenModal: "Imágenes/consejo8.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/consejo8.jpg"
     }
 ];
 
@@ -100,18 +99,18 @@ const guias = [
     {
         titulo: "1. Propagación",
         descripcion: "Para propagar árboles frutales de alta calidad se requiere experiencia y habilidades especiales.",
-        imagen: "Imágenes/guia1.jpg", // Ruta de la imagen
+        imagen: "Imágenes/guia1.jpg",
         detalles: [
             "Es mejor dejar la propagación en manos de viveristas.",
             "Los mejores árboles para comprar son aquéllos cuidadosamente seleccionados e injertados.",
             "Los árboles injertados son copias idénticas de la planta madre."
         ],
-        imagenModal: "Imágenes/guia1.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/guia1.jpg"
     },
     {
         titulo: "2. Siembra",
         descripcion: "Se deben tomar cuidados especiales para sembrar plántulas o variedades injertadas.",
-        imagen: "Imágenes/guia2.jpg", // Ruta de la imagen
+        imagen: "Imágenes/guia2.jpg",
         detalles: [
             "Haga un agujero el doble de profundo que las raíces de la plántula.",
             "Mezcle una cantidad generosa de composta y fertilizante con el suelo antes de colocar la planta.",
@@ -119,33 +118,33 @@ const guias = [
             "Si el área es húmeda, siembre el árbol en un montículo de tierra más alto que la superficie general del suelo.",
             "Si el área es seca, siembre el frutal en una cavidad más baja que el suelo de alrededor."
         ],
-        imagenModal: "Imágenes/guia2.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/guia2.jpg"
     },
     {
         titulo: "3. Espacio entre árboles frutales",
         descripcion: "Siembre los árboles dejando espacio entre ellos para reducir la competencia.",
-        imagen: "Imágenes/guia3.jpg", // Ruta de la imagen
+        imagen: "Imágenes/guia3.jpg",
         detalles: [
             "Observe un ejemplar adulto del árbol que quiere sembrar para hacerse una idea del espacio que ocupará.",
             "Mantenga una distancia adecuada entre árboles para evitar la competencia por nutrientes y luz."
         ],
-        imagenModal: "Imágenes/guia3.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/guia3.jpg"
     },
     {
         titulo: "4. Control de plagas y enfermedades",
         descripcion: "Los árboles frutales estarán mejor preparados para resistir plagas y enfermedades si están plantados en condiciones favorables.",
-        imagen: "Imágenes/guia4.png", // Ruta de la imagen
+        imagen: "Imágenes/guia4.png",
         detalles: [
             "Plante los árboles en condiciones adecuadas: luz solar, sombra, protección, drenaje y tipo de suelo.",
             "Practique una buena higiene agrícola: pode las ramas muertas y no lleve al huerto plantas infectadas.",
             "Inspeccione regularmente los árboles en busca de signos de plagas o enfermedades."
         ],
-        imagenModal: "Imágenes/guia4.png" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/guia4.png"
     },
     {
         titulo: "5. Cultivo de frutales",
         descripcion: "Los árboles frutales crecerán y producirán mejor si reciben los cuidados necesarios.",
-        imagen: "Imágenes/guia5.jpg", // Ruta de la imagen
+        imagen: "Imágenes/guia5.jpg",
         detalles: [
             "Podas: Al sembrar, seleccione ramas fuertes superiores para que se conviertan en el tronco del árbol.",
             "Pode las ramas que están muy cerca o rozándose entre ellas para permitir la circulación de aire y luz.",
@@ -153,7 +152,7 @@ const guias = [
             "Evite fertilizar durante la floración; aplique fertilizante antes de la floración y cuando el fruto esté medio maduro.",
             "Riegos: Los frutales jóvenes necesitan riegos diarios durante la temporada seca en los dos primeros años."
         ],
-        imagenModal: "Imágenes/guia5.jpg" // Ruta de la imagen en el modal
+        imagenModal: "Imágenes/guia5.jpg"
     }
 ];
 
@@ -161,58 +160,58 @@ const beneficios = [
     {
         titulo: "1. Mejora de la calidad del aire y reducción de la contaminación",
         descripcion: "Los árboles frutales absorben dióxido de carbono (CO₂), liberan oxígeno y filtran contaminantes del aire como partículas en suspensión y gases nocivos. Además, reducen el efecto de isla de calor en las ciudades al proporcionar sombra y humedad, ayudando a mitigar los efectos del cambio climático.",
-        imagen: "Imágenes/beneficio1.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio1.jpg" // Placeholder
+        imagen: "Imágenes/beneficio1.jpg",
+        imagenModal: "Imágenes/beneficio1.jpg"
     },
     {
         titulo: "2. Conservación de la biodiversidad y protección de especies",
         descripcion: "Estos árboles sirven de hábitat y fuente de alimento para una gran variedad de animales, incluyendo aves, abejas y mariposas, promoviendo la polinización y el equilibrio ecológico. La presencia de polinizadores es esencial para la producción de frutos y, en consecuencia, para la seguridad alimentaria.",
-        imagen: "Imágenes/beneficio2.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio2.jpg" // Placeholder
+        imagen: "Imágenes/beneficio2.jpg",
+        imagenModal: "Imágenes/beneficio2.jpg"
     },
     {
         titulo: "3. Enriquecimiento y protección del suelo",
         descripcion: "Los árboles frutales contribuyen a mejorar la estructura del suelo mediante la descomposición de sus hojas y frutos, lo que incrementa su fertilidad. Además, sus raíces ayudan a prevenir la erosión y mejoran la retención de agua, lo que beneficia a otros cultivos y plantas cercanas.",
-        imagen: "Imágenes/beneficio3.jpeg", // Placeholder
-        imagenModal: "Imágenes/beneficio3.jpeg" // Placeholder
+        imagen: "Imágenes/beneficio3.jpeg",
+        imagenModal: "Imágenes/beneficio3.jpeg"
     },
     {
         titulo: "4. Producción de alimentos saludables y autosuficiencia",
         descripcion: "El cultivo de árboles frutales permite el acceso a frutas frescas y orgánicas, ricas en vitaminas, minerales y antioxidantes. Esto fomenta una alimentación saludable y reduce la dependencia de productos industrializados, que a menudo contienen pesticidas y conservantes.",
-        imagen: "Imágenes/beneficio4.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio4.jpg" // Placeholder
+        imagen: "Imágenes/beneficio4.jpg",
+        imagenModal: "Imágenes/beneficio4.jpg"
     },
     {
         titulo: "5. Impacto económico positivo",
         descripcion: "Los árboles frutales pueden ser una fuente de ingresos adicionales a través de la venta de frutas y productos derivados. Asimismo, contribuyen al ahorro familiar al reducir el gasto en la compra de frutas y pueden aumentar el valor de las propiedades donde se encuentran.",
-        imagen: "Imágenes/beneficio5.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio5.jpg" // Placeholder
+        imagen: "Imágenes/beneficio5.jpg",
+        imagenModal: "Imágenes/beneficio5.jpg"
     },
     {
         titulo: "6. Fomento de la agricultura urbana y la educación ambiental",
         descripcion: "Plantar árboles frutales en entornos urbanos ayuda a sensibilizar a la población sobre la importancia de la producción local de alimentos y la sostenibilidad. Además, brinda la oportunidad de enseñar a niños y adultos sobre agricultura, ciclos de cultivo y el impacto del ser humano en el medio ambiente.",
-        imagen: "Imágenes/beneficio6.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio6.jpg" // Placeholder
+        imagen: "Imágenes/beneficio6.jpg",
+        imagenModal: "Imágenes/beneficio6.jpg"
     },
     {
         titulo: "7. Beneficios psicológicos y sociales",
         descripcion: "La presencia de árboles en el entorno urbano contribuye al bienestar mental, reduciendo el estrés y mejorando la calidad de vida. Su sombra y belleza crean espacios agradables para la convivencia, fortaleciendo el sentido de comunidad.",
-        imagen: "Imágenes/beneficio7.jpg", // Placeholder
-        imagenModal: "Imágenes/beneficio7.jpg" // Placeholder
+        imagen: "Imágenes/beneficio7.jpg",
+        imagenModal: "Imágenes/beneficio7.jpg"
     },
     {
         titulo: "8. Sostenibilidad y reducción de la huella de carbono",
         descripcion: "El consumo de frutas cultivadas localmente reduce la demanda de productos comercialmente distribuidos, lo que disminuye el uso de plásticos para empaques y la contaminación generada por el transporte de larga distancia. Esto convierte a los árboles frutales en una alternativa ecológica y sustentable.",
-        imagen: "Imágenes/beneficio8.png", // Placeholder
-        imagenModal: "Imágenes/beneficio8.png" // Placeholder
+        imagen: "Imágenes/beneficio8.png",
+        imagenModal: "Imágenes/beneficio8.png"
     }
 ];
 
 const arbolesFrutales = [
     {
         nombre: "Manzano (Malus domestica)",
-        imagen: "Imágenes/manzano.jpg", // Placeholder
-        imagenModal: "Imágenes/manzano.jpg", // Placeholder
+        imagen: "Imágenes/manzano.jpg",
+        imagenModal: "Imágenes/manzano.jpg",
         caracteristicas: {
             fruto: "Manzanas, variedad de colores (rojo, verde, amarillo).",
             altura: "3-4 metros.",
@@ -231,8 +230,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Peral (Pyrus)",
-        imagen: "Imágenes/peral.jpg", // Placeholder
-        imagenModal: "Imágenes/peral.jpg", // Placeholder
+        imagen: "Imágenes/peral.jpg",
+        imagenModal: "Imágenes/peral.jpg",
         caracteristicas: {
             fruto: "Peras, variedad de formas (ovaladas, redondas).",
             altura: "4-5 metros.",
@@ -251,8 +250,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Cítricos (Citrus)",
-        imagen: "Imágenes/citricos.jpg", // Placeholder
-        imagenModal: "Imágenes/citricos.jpg", // Placeholder
+        imagen: "Imágenes/citricos.jpg",
+        imagenModal: "Imágenes/citricos.jpg",
         caracteristicas: {
             fruto: "Naranjas, limones, pomelos, mandarinas.",
             altura: "3-6 metros, dependiendo de la variedad.",
@@ -271,8 +270,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Cerezo (Prunus avium)",
-        imagen: "Imágenes/cerezo.jpg", // Placeholder
-        imagenModal: "Imágenes/cerezo.jpg", // Placeholder
+        imagen: "Imágenes/cerezo.jpg",
+        imagenModal: "Imágenes/cerezo.jpg",
         caracteristicas: {
             fruto: "Cerezas rojas o negras.",
             altura: "4-6 metros.",
@@ -291,8 +290,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Almendro (Prunus dulcis)",
-        imagen: "Imágenes/almendro.jpg", // Placeholder
-        imagenModal: "Imágenes/almendro.jpg", // Placeholder
+        imagen: "Imágenes/almendro.jpg",
+        imagenModal: "Imágenes/almendro.jpg",
         caracteristicas: {
             fruto: "Almendras, secas o verdes.",
             altura: "3-4 metros.",
@@ -311,8 +310,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Durazno o Melocotonero (Prunus persica)",
-        imagen: "Imágenes/durazno.jpg", // Placeholder
-        imagenModal: "Imágenes/durazno.jpg", // Placeholder
+        imagen: "Imágenes/durazno.jpg",
+        imagenModal: "Imágenes/durazno.jpg",
         caracteristicas: {
             fruto: "Duraznos o melocotones, jugosos y dulces.",
             altura: "4-5 metros.",
@@ -331,8 +330,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Higueras (Ficus carica)",
-        imagen: "Imágenes/higuera.jpg", // Placeholder
-        imagenModal: "Imágenes/higuera.jpg", // Placeholder
+        imagen: "Imágenes/higuera.jpg",
+        imagenModal: "Imágenes/higuera.jpg",
         caracteristicas: {
             fruto: "Higos, dulces y jugosos.",
             altura: "3-5 metros.",
@@ -351,8 +350,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Granado (Punica granatum)",
-        imagen: "Imágenes/granado.jpg", // Placeholder
-        imagenModal: "Imágenes/granado.jpg", // Placeholder
+        imagen: "Imágenes/granado.jpg",
+        imagenModal: "Imágenes/granado.jpg",
         caracteristicas: {
             fruto: "Granadas, con semillas jugosas.",
             altura: "3-5 metros.",
@@ -371,8 +370,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Kiwi (Actinidia deliciosa)",
-        imagen: "Imágenes/kiwi.jpg", // Placeholder
-        imagenModal: "Imágenes/kiwi.jpg", // Placeholder
+        imagen: "Imágenes/kiwi.jpg",
+        imagenModal: "Imágenes/kiwi.jpg",
         caracteristicas: {
             fruto: "Kiwis, pequeños y peludos.",
             altura: "Enredadera, hasta 9 metros de altura.",
@@ -391,8 +390,8 @@ const arbolesFrutales = [
     },
     {
         nombre: "Ciruelo (Prunus domestica)",
-        imagen: "Imágenes/ciruelo.jpg", // Placeholder
-        imagenModal: "Imágenes/ciruelo.jpg", // Placeholder
+        imagen: "Imágenes/ciruelo.jpg",
+        imagenModal: "Imágenes/ciruelo.jpg",
         caracteristicas: {
             fruto: "Ciruelas, moradas, rojas o amarillas.",
             altura: "4-6 metros.",
@@ -411,7 +410,6 @@ const arbolesFrutales = [
     }
 ];
 
-// Función para generar tarjetas de consejos
 function generarConsejos() {
     const container = document.getElementById('consejos-container');
     container.innerHTML = consejos.map((consejo, index) => `
@@ -428,7 +426,6 @@ function generarConsejos() {
     `).join('');
 }
 
-// Función para mostrar detalles en el modal
 function mostrarDetalles(index) {
     const consejo = consejos[index];
     const modalBody = document.getElementById('modalBody');
@@ -444,7 +441,6 @@ function mostrarDetalles(index) {
     `;
 }
 
-// Función para generar tarjetas de guías
 function generarGuias() {
     const container = document.getElementById('guias-container');
     container.innerHTML = guias.map((guia, index) => `
@@ -461,7 +457,6 @@ function generarGuias() {
     `).join('');
 }
 
-// Función para mostrar detalles en el modal (para guías)
 function mostrarDetallesGuias(index) {
     const guia = guias[index];
     const modalBody = document.getElementById('modalBody');
@@ -477,7 +472,6 @@ function mostrarDetallesGuias(index) {
     `;
 }
 
-// Función para generar tarjetas de beneficios
 function generarBeneficios() {
     const container = document.getElementById('beneficios-container');
     container.innerHTML = beneficios.map((beneficio, index) => `
@@ -493,7 +487,6 @@ function generarBeneficios() {
     `).join('');
 }
 
-// Función para mostrar detalles en el modal (para beneficios)
 function mostrarDetallesBeneficios(index) {
     const beneficio = beneficios[index];
     const modalBody = document.getElementById('modalBody');
@@ -506,7 +499,6 @@ function mostrarDetallesBeneficios(index) {
     `;
 }
 
-// Función para generar tarjetas de árboles frutales
 function generarArbolesFrutales() {
     const container = document.getElementById('arboles-container');
     container.innerHTML = arbolesFrutales.map((arbol, index) => `
@@ -524,7 +516,6 @@ function generarArbolesFrutales() {
     `).join('');
 }
 
-// Función para mostrar características en el modal
 function mostrarCaracteristicas(index) {
     const arbol = arbolesFrutales[index];
     const modalBody = document.getElementById('modalBody');
@@ -545,7 +536,6 @@ function mostrarCaracteristicas(index) {
     `;
 }
 
-// Función para mostrar cuidados en el modal
 function mostrarCuidados(index) {
     const arbol = arbolesFrutales[index];
     const modalBody = document.getElementById('modalBody');
@@ -564,7 +554,6 @@ function mostrarCuidados(index) {
     `;
 }
 
-// Función para mostrar plantado en el modal
 function mostrarPlantado(index) {
     const arbol = arbolesFrutales[index];
     const modalBody = document.getElementById('modalBody');
@@ -578,10 +567,9 @@ function mostrarPlantado(index) {
     `;
 }
 
-// Inicialización
 document.addEventListener('DOMContentLoaded', () => {
-    generarConsejos(); // Genera las tarjetas de consejos
-    generarGuias(); // Genera las tarjetas de guías
-    generarBeneficios(); // Genera las tarjetas de beneficios
-    generarArbolesFrutales(); // Genera las tarjetas de árboles frutales
+    generarConsejos();
+    generarGuias();
+    generarBeneficios();
+    generarArbolesFrutales();
 });
